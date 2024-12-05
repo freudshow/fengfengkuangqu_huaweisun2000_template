@@ -357,6 +357,107 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 1,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器1-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
+          "MultiTypeList": null
         }
       ]
     },
@@ -713,6 +814,107 @@
             1.0
           ],
           "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 2,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器2-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
           "MultiTypeList": null
         }
       ]
@@ -1071,6 +1273,107 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 3,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器3-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
+          "MultiTypeList": null
         }
       ]
     },
@@ -1427,6 +1730,107 @@
             1.0
           ],
           "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 4,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器4-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
           "MultiTypeList": null
         }
       ]
@@ -1785,6 +2189,107 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 5,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器5-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
+          "MultiTypeList": null
         }
       ]
     },
@@ -2141,6 +2646,107 @@
             1.0
           ],
           "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 6,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器6-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
           "MultiTypeList": null
         }
       ]
@@ -2499,6 +3105,107 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 7,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器7-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
+          "MultiTypeList": null
         }
       ]
     },
@@ -2855,6 +3562,107 @@
             1.0
           ],
           "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 8,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器8-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
           "MultiTypeList": null
         }
       ]
@@ -3213,6 +4021,107 @@
           ],
           "DataType_Bit": null,
           "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 9,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器9-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
+          "MultiTypeList": null
         }
       ]
     },
@@ -3569,6 +4478,107 @@
             1.0
           ],
           "DataType_Bit": null,
+          "MultiTypeList": null
+        },
+        {
+          "ModbusCmd": 3,
+          "StoreRegStartAddr": 24,
+          "DataItemCount": 10,
+          "SlaveDevAddr": 10,
+          "ModbusRegAddr": 32000,
+          "GetRegCount": 1,
+          "AreaNum": 3,
+          "DataProperty": 0,
+          "DataType": "ModbusDataType_bitField",
+          "DataTypeEnum": 6,
+          "LowAddr": 32000,
+          "HighAddr": 32000,
+          "DataFormat": 0,
+          "KeyDec": null,
+          "KeyMode": null,
+          "KeyCoe": null,
+          "DataType_Bit": [
+            {
+              "No": 0,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-待机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 0
+            },
+            {
+              "No": 1,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 1
+            },
+            {
+              "No": 2,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-正常并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 2
+            },
+            {
+              "No": 3,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-限电降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 3
+            },
+            {
+              "No": 4,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-自降额并网",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 4
+            },
+            {
+              "No": 5,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-正常停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 5
+            },
+            {
+              "No": 6,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-故障停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 6
+            },
+            {
+              "No": 7,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-限电停运",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 7
+            },
+            {
+              "No": 8,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-关机",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 8
+            },
+            {
+              "No": 9,
+              "KeyMode": null,
+              "KeyDec": "逆变器10-点检",
+              "ModbusRegAddr": 32000,
+              "Reverse": 1,
+              "Bit": 9
+            }
+          ],
           "MultiTypeList": null
         }
       ]
